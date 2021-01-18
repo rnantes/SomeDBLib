@@ -1,5 +1,9 @@
 import GRDB
 
-struct SomeDBLib {
+public struct SomeDBLib {
     var text = "Hello, World!"
+
+    public func foo() -> String {
+        return "bar"
+    }
 }
