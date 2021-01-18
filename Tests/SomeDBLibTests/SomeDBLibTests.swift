@@ -6,14 +6,14 @@ final class SomeDBLibTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SomeDBLib().text, "Hello, World!")
+        XCTAssertEqual(SomeDBStuff().text, "Hello, World!")
     }
 
     func testExample2() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SomeDBLib().foo(), "bar")
+        XCTAssertEqual(SomeDBStuff().foo(), "bar")
     }
 
     static var allTests = [
