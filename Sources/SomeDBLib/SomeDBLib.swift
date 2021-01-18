@@ -1,7 +1,11 @@
 import GRDB
 
 public struct SomeDBStuff{
-    var text = "Hello, World!"
+    public var text:String
+
+    public init() {
+        self.text = "Hello, World!"
+    }
 
     public func foo() -> String {
         return "bar"
